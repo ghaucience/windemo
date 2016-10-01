@@ -65,7 +65,7 @@ KDLock *g_kdlock = NULL;
 int main(int argc, char *argv[]) {
   g_com = OpenSerial(atoi(argv[1]));
   if (g_com < 0) {
-	cout << "open serial failed" << endl;
+	cout << "open serial failed!" << endl;
 	exit(0);
   }
 
